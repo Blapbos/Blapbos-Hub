@@ -1,5 +1,5 @@
 -- load Blapbos UI library
-local BlapbosLibURL = "https://pastebin.com/raw/pbnHvq8H"
+local BlapbosLibURL = "https://pastebin.com/raw/n5Bi2XwX"
 
 -- Game script list
 local Games = {
