@@ -27,4 +27,4 @@ for _, gameData in ipairs(Games) do
     end
 end
 
-warn("Unsupported game")
+warn("Blapbos Hub | Unsupported game")
