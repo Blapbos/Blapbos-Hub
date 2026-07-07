@@ -6,13 +6,13 @@ local Games = {
     {
         Name = "Big Paintball Classic",
         PlaceId = 3527629287,
-        ScriptURL = "https://pastebin.com/raw/kA9AVsmX"
+        ScriptURL = "https://pastebin.com/raw/aADAvAtA"
     },
 
     {
         Name = "Build Zombie Battle",
         PlaceId = 98694516272543,
-        ScriptURL = "https://pastebin.com/raw/Zk8dYsK4"
+        ScriptURL = "https://pastebin.com/raw/uiprYSng"
     }
 }
 
