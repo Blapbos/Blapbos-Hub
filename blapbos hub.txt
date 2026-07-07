@@ -18,7 +18,7 @@ local Games = {
 
 for _, gameData in ipairs(Games) do
     if game.PlaceId == gameData.PlaceId then
-        print("Loading "..gameData.Name)
+        print("Blapbos Hub | Loading "..gameData.Name)
         if not getgenv().BlapbosLib then
             getgenv().BlapbosLib = loadstring(game:HttpGet(BlapbosLibURL))()
         end
