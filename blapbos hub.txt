@@ -1,0 +1,30 @@
+-- load Blapbos UI library
+local BlapbosLibURL = "https://pastebin.com/raw/pbnHvq8H"
+
+-- Game script list
+local Games = {
+    {
+        Name = "Big Paintball Classic",
+        PlaceId = 3527629287,
+        ScriptURL = "https://pastebin.com/raw/kA9AVsmX"
+    },
+
+    {
+        Name = "Build Zombie Battle",
+        PlaceId = 98694516272543,
+        ScriptURL = "https://pastebin.com/raw/Zk8dYsK4"
+    }
+}
+
+for _, gameData in ipairs(Games) do
+    if game.PlaceId == gameData.PlaceId then
+        print("Loading "..gameData.Name)
+        if not getgenv().BlapbosLib then
+            getgenv().BlapbosLib = loadstring(game:HttpGet(BlapbosLibURL))()
+        end
+        loadstring(game:HttpGet(gameData.ScriptURL))()
+        return
+    end
+end
+
+warn("Unsupported game")
